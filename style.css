@@ -1,6 +1,7 @@
 body {
   width:90%;
   font-family:arial;
+  text-align:center;
 }
 
 th {
@@ -8,7 +9,7 @@ th {
 }
 
 td {
-    padding:5px;
+    padding:15px;
     vertical-align:center;
 }
 
@@ -18,4 +19,24 @@ th {
 
 ul {
    margin:0;
+}
+
+table {
+  border:1px solid black;
+  max-width:1000px;
+  margin:auto;
+}
+
+td, th {
+  border:1px solid black;
+}
+
+table table {
+border:0;
+width:100%;
+}
+
+table table td, table table th {
+  background-color:lightgrey;
+  vertical-align:left;
 }
